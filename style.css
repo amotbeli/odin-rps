@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.33px;
+}
+
+.container, .human, .computer, .button {
+  display: flex;
+}
+
+.play, .display {
+  width: 50%;
+}
+
+.human, .computer {
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+#rock, #paper, #scissors {
+  width: 150px;
+  height: 146px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  justify-content: center;
+  padding: 50px;
+}
+
+button {
+  padding: 30px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.result, .score {
+  height: 150px;
+  border: 2px solid black;
+}
