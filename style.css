@@ -11,6 +11,10 @@ body {
   width: 50%;
 }
 
+.result div, .score div {
+  padding: 10px;
+}
+
 .human, .computer {
   gap: 20px;
   justify-content: space-evenly;
@@ -26,11 +30,6 @@ body {
   justify-content: center;
 }
 
-.button {
-  justify-content: center;
-  padding: 50px;
-}
-
 button {
   padding: 30px;
   border-radius: 50%;
@@ -38,6 +37,6 @@ button {
 }
 
 .result, .score {
-  height: 150px;
+  height: 140px;
   border: 2px solid black;
 }
